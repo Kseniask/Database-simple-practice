@@ -21,7 +21,7 @@ public class LoanPractice {
 			System.out.println("Problem loading driver" + ex.getMessage());
 		}
 		
-		String msAccess = "/Users/kseniask/eclipse-workspace/FinalPractice/src/loans.accdb";
+		String msAccess = "src/loans.accdb";
 		String dbURL = "jdbc:ucanaccess://" + msAccess;
 		Loan[] loans = new Loan[40];
 		int counter=0;
